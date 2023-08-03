@@ -1,0 +1,26 @@
+header {
+  height: 125px;
+  width: 100%;
+  /* border: 2px solid green; */
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.header-heading {
+  color: #1e293b;
+}
+
+.header-paragraph {
+  color: #475569;
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+}

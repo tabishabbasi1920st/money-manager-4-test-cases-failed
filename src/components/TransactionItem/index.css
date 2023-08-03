@@ -1,0 +1,34 @@
+.transaction-item-bg-container {
+  display: flex;
+  border: 1px solid #d7dfe9;
+  align-items: center;
+  height: 35px;
+  padding: 10px;
+}
+
+.transaction-item-bg-container p {
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 12px;
+  margin-right: 12px;
+  width: 70px;
+}
+
+@media screen and (max-width: 576px) {
+  .transaction-item-bg-container p {
+    color: #1e293b;
+    font-weight: 600;
+    font-size: 12px;
+    margin-right: 12px;
+    width: 70px;
+  }
+}
+
+.delete-icon {
+  height: 22px;
+  width: 22px;
+}
+
+button {
+  border: none;
+}
